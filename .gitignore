@@ -1,0 +1,19 @@
+# Node dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables (Crucial for security!)
+.env
+backend/.env
+
+# Local file storage uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Production builds
+frontend/dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
